@@ -1,0 +1,417 @@
+<configs>
+	<append xpath="/items">
+	
+	<item name="Armored Car">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="cntDumpster"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Armored Car"/>
+		<property name="VehicleSize" value="5, 1, 5"/>
+	</property>
+	<effect_group name="vehicleArmyTruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+	</effect_group>
+	</item>
+		
+	<item name="Parachute">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="flamethrowerTrap"/>
+		<property name="CustomIconTint" value="255,255,255"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?bicycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="500"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Parachute"/>
+		<property name="VehicleSize" value="1, 1, 1"/>
+	</property>
+	<effect_group name="Parachute" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500"/>
+	</effect_group>
+	</item>
+		
+	<item name="JetPack">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="flamethrowerTrap"/>
+		<property name="CustomIconTint" value="255,255,255"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="JetPack"/>
+		<property name="VehicleSize" value="3, 2, 3"/>
+	</property>
+	<effect_group name="JetPack" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2000"/>
+	</effect_group>
+	</item>
+		
+	<item name="Raft">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="mattressFlat"/>
+		<property name="CustomIconTint" value="255,255,200"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Raft"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
+	</property>
+	<effect_group name="Raft" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+		
+	<item name="HellBeast">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleMotorcyclePlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellBeast"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
+	</property>
+	<effect_group name="HellBeast" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+		
+	<item name="ATV">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleMotorcyclePlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="ATV"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
+	</property>
+	<effect_group name="ATV" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+		
+	<item name="Sled">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="palletEmpty"/>
+		<property name="CustomIconTint" value="0,0,0"/>
+		<property name="Prefab" value="#Entities/Vehicles?bicycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Sled"/>
+		<property name="VehicleSize" value="2,2,3"/>
+	</property>
+	<effect_group name="Sled" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+	</effect_group>
+	</item>
+		
+	<item name="Army Truck">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="cntArmyTruckOpen"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Army Truck"/>
+		<property name="VehicleSize" value="2.5, 2.1,10"/>
+	</property>
+	<effect_group name="vehicleArmyTruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+		
+	<item name="HellHound4x4">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellHound4x4"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="HellFire">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleMotorcyclePlaceable"/>
+		<property name="CustomIconTint" value="255,100,0"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellFire"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
+	</property>
+	<effect_group name="HellFire" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+		
+	<item name="HellSpikey4x4">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellSpikey4x4"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="HellDog">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleMotorcyclePlaceable"/>
+		<property name="CustomIconTint" value="255,100,0"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+		<property name="EconomicValue" value="10000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellDog"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
+	</property>
+	<effect_group name="HellDog" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+		
+	<item name="SharkBlimp">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleGyrocopterPlaceable"/>
+		<property name="CustomIconTint" value="255,100,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+		<property name="EconomicValue" value="5000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="SharkBlimp"/>
+		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+	</property>
+	<effect_group name="SharkBlimp" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+
+	<item name="Whirligig">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleGyrocopterPlaceable"/>
+		<property name="CustomIconTint" value="40,180,120"/>
+		<property name="Meshfile" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+		<property name="UnlockedBy" value="perkGreaseMonkey"/>
+		<property name="EconomicValue" value="50000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="Whirligig"/>
+		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+	</property>
+	<effect_group name="Whirligig" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+		
+	<item name="MagicBus">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="MagicBus"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="BattleBus">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="BattleBus"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="HellCar">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellCar"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="BathBlimp">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="decoClawFootBathTub"/>
+		<property name="CustomIconTint" value="255, 255, 255"/>
+		<property name="Meshfile" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+		<property name="EconomicValue" value="5000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="BathBlimp"/>
+		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+	</property>
+	<effect_group name="BathBlimp" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+
+	<item name="BattleBusDrone">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicleGyrocopterPlaceable"/>
+		<property name="Meshfile" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+		<property name="EconomicValue" value="5000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="BattleBusDrone"/>
+		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+	</property>
+	<effect_group name="BattleBusDrone" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+
+	<item name="PeNa1979Express">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="foodEgg"/>
+		<property name="Meshfile" value="#Entities/Vehicles?gyrocopter_Prefab.prefab"/>
+		<property name="EconomicValue" value="5000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="PeNa1979Express"/>
+		<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+	</property>
+	<effect_group name="PeNa1979Express" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="3000"/>
+	</effect_group>
+	</item>
+
+	<item name="PsyrenRide">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="30,144,255"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="PsyrenRide"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="GreenMax">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="0,255,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="GreenMax"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+
+	<item name="RedMax">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="vehicle4x4TruckPlaceable"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="30000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="RedMax"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>
+	
+	<item name="HellPiggy">
+		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<property name="CustomIcon" value="sleeperBearAnimal"/>
+		<property name="CustomIconTint" value="255,0,0"/>
+		<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+		<property name="EconomicValue" value="3000"/>
+		<property class="Action1">
+		<property name="Vehicle" value="HellPiggy"/>
+		<property name="VehicleSize" value="2,2,3"/>
+	</property>
+	<effect_group name="vehicle4x4TruckPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+	</item>	
+		
+	</append>
+</configs>

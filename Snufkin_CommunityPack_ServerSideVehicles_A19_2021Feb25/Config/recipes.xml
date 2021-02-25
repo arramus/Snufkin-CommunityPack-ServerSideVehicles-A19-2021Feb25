@@ -1,0 +1,189 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="Army Truck" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="11"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		<recipe name="ATV" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>		
+		<recipe name="HellBeast" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+			<!--ingredient name="meleeThrownSpearSteelParts" count="10"/-->
+			<ingredient name="meleeToolAllSteelParts" count="10"/>
+			<ingredient name="resourceBone" count="100"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+		</recipe>
+		<recipe name="Parachute" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceCloth" count="40"/>
+			<ingredient name="resourceSewingKit" count="10"/>
+		</recipe>
+		<recipe name="Raft" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="80"/>
+			<ingredient name="resourceForgedIron" count="24"/>
+			<ingredient name="resourceNail" count="80"/>
+			<ingredient name="resourceWood" count="300"/>
+			<ingredient name="resourceCloth" count="40"/>
+		</recipe>
+		<recipe name="Sled" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="40"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceCloth" count="20"/>
+			<ingredient name="resourceBone" count="20"/>
+			<ingredient name="foodRawMeat" count="20"/>
+		</recipe>
+		<recipe name="JetPack" count="1" craft_area="workbench" craft_time="420">
+			<ingredient name="resourceForgedSteel" count="100"/>
+			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
+			<!--ingredient name="meleeToolWrench" count="2"/-->
+			<ingredient name="meleeToolAllSteelParts" count="2"/>
+			<!--ingredient name="gunJunkTurretParts" count="40"/-->
+			<ingredient name="gunBotRoboticsParts" count="40"/>
+			<ingredient name="resourceElectricParts" count="40"/>
+		</recipe>
+		<recipe name="Armored Car" count="1" craft_area="workbench" craft_time="600">
+			<ingredient name="resourceForgedSteel" count="300"/>
+			<ingredient name="resourceForgedIron" count="200"/>
+			<ingredient name="resourceElectricParts" count="45"/>
+			<ingredient name="resourceMechanicalParts" count="70"/>
+			<ingredient name="vehicleWheels" count="6"/>
+		</recipe>
+		
+				<recipe name="HellHound4x4" count="1" craft_area="workbench" craft_time="600">
+			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+			<ingredient name="resourceForgedIron" count="100"/>
+			<ingredient name="resourceElectricParts" count="25"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+			<ingredient name="resourceScrapPolymers" count="6"/>
+		</recipe>
+		
+		<recipe name="HellFire" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+            <ingredient name="meleeToolAllSteelParts" count="10"/>
+			<ingredient name="resourceBone" count="100"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+		</recipe>
+		
+		<recipe name="HellSpikey4x4" count="1" craft_area="workbench" craft_time="600">
+			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+			<ingredient name="resourceWood" count="500"/>
+			<ingredient name="resourceElectricParts" count="25"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+			<ingredient name="resourceScrapPolymers" count="6"/>
+		</recipe>
+		
+		<recipe name="HellDog" count="1" craft_time="300" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+			<ingredient name="meleeToolAllSteelParts" count="10"/>
+			<ingredient name="resourceBone" count="100"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+		</recipe>
+			
+		<recipe name="SharkBlimp" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="40"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceCloth" count="20"/>
+			<ingredient name="resourceBone" count="20"/>
+			<ingredient name="foodRawMeat" count="20"/>	
+        </recipe>			
+		
+		<recipe name="Whirligig" count="1" craft_time="270" craft_area="workbench" tags="workbenchCrafting">
+	        <ingredient name="vehicleWheels" count="3"/>
+			<ingredient name="vehicleGyroCopterChassis" count="1"/>
+			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		
+		<recipe name="MagicBus" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="BattleBus" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="HellCar" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="BathBlimp" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="40"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceBone" count="20"/>
+			<ingredient name="resourceForgedIron" count="20"/>	
+        </recipe>
+
+		<recipe name="BattleBusDrone" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="batterybank" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="PeNa1979Express" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="foodEgg" count="12"/>
+			<ingredient name="lanternLight_player" count="2"/>
+			<ingredient name="spotlightPlayer" count="2"/>
+			<ingredient name="batterybank" count="1"/>
+			<ingredient name="vaultHatch_v1" count="1"/>
+		</recipe>
+
+		<recipe name="PsyrenRide" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="GreenMax" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="RedMax" count="1" craft_time="420" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicle4x4TruckChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="HellPiggy" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="40"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceCloth" count="20"/>
+			<ingredient name="resourceBone" count="20"/>
+			<ingredient name="foodRawMeat" count="20"/>	
+		</recipe>		
+		
+	</append>
+</configs>

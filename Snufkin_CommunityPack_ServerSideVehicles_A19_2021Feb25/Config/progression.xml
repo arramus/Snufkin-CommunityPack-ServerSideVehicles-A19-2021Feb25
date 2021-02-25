@@ -1,0 +1,14 @@
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="hellbeast"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="armoredcar"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="jetpack"/>
+		    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="HellFire"/>
+		    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3" value="1" tags="HellDog"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="HellHound4x4"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="HellSpikey4x4"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="whirligig"/>			
+		</effect_group>
+	</append>
+</configs>
